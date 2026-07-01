@@ -1,0 +1,22 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 编辑器配置
+.idea/
+.vscode/
+
+# 运行产物
+output/*.xlsx
+!output/.gitkeep
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+
+# Excel 临时文件
+~$*.xlsx
